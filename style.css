@@ -4,23 +4,33 @@
     align-items: stretch;
     position: relative;
     top:400px;
+    
 }
 
 #pA {
     font-size: 50px;
     display: none;
-    
+    z-index: 2;
+    color: white;
 }
 
 #pB {
     font-size: 50px;
     display: none;
-    
+    z-index: 2;
+    color:white;
 }
 
 #pC {
     font-size: 50px;
     display: none;
+    z-index: 2;
+    color: white;
+}
+
+#monitor {
+    z-index: 1;
+    position: absolute;
 }
 
 #toggle {
@@ -31,4 +41,9 @@
     height: 300px;
     top: 700px;
     position:relative;
+}
+
+#hackerMsg {
+    display: none;
+    z-index: 2;
 }
