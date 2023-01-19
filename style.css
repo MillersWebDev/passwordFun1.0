@@ -1,0 +1,34 @@
+.paragraphElements {
+    display:flex;
+    justify-content: center;
+    align-items: stretch;
+    position: relative;
+    top:400px;
+}
+
+#pA {
+    font-size: 50px;
+    display: none;
+    
+}
+
+#pB {
+    font-size: 50px;
+    display: none;
+    
+}
+
+#pC {
+    font-size: 50px;
+    display: none;
+}
+
+#toggle {
+    display:flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    height: 300px;
+    top: 700px;
+    position:relative;
+}
